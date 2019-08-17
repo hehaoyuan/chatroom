@@ -1,0 +1,21 @@
+dao:
+
+JDBC
+
+1.加载数据源 只加载一次   公有
+2.获取连接                 公有
+3.执行SQL PrepareStatement ResultSet
+4.关闭资源             公有
+Resultset
+Connection
+Statement
+
+
+注册用户：insert
+
+用户登录：select
+
+更新用户信息：update
+
+BasedDao：1、2、3
+BaseDao -> AccountDao -> 单测
